@@ -80,7 +80,7 @@ class SingletonLanHan2 {
 class SingletonLanHan3 {
     private SingletonLanHan3() {}
 
-    private static SingletonLanHan3 singletonLanHan3;
+    private static volatile SingletonLanHan3 singletonLanHan3;
 
     public static SingletonLanHan3 getInstance() {
         if (singletonLanHan3 == null) {

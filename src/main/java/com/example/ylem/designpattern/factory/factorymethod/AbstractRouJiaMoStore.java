@@ -14,8 +14,10 @@ import com.example.ylem.designpattern.factory.easyfactory.wupin.RouJiaMo;
 
 public abstract class AbstractRouJiaMoStore {
 
+    // 抽象方法
     public abstract RouJiaMo createRouJiaMo(String type);
 
+    // 工厂的公共方法
     public RouJiaMo sellRouJiaMo(String type) {
         RouJiaMo rouJiaMo = createRouJiaMo(type);
 

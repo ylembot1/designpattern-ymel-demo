@@ -12,8 +12,6 @@ public enum SingletonEnum {
 
     instance;
 
-    private SingletonEnum() {}
-
     public void method1() {
     }
 
